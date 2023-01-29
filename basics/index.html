@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title> ABDULRAHMAN SULEIMAN FATIKA - PORTFOLIO</title>
+        <style type="text/css">
+                 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&display=swap');
+       
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                font-family: 'Josefin Sans', sans-serif;
+            }
+
+            .navigation {
+                position: fixed;
+                width: 100%;
+                height: 60px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background: #4c0c47;
+            }
+
+            .navigation div a{
+                color: #ffffff;
+                font-size: 20px;
+                text-decoration: none;
+            }
+
+            .navigation div{
+                margin: 0 15px;
+                color: white;
+            }
+            .header p{
+                color:#ffffff;
+                font-size: 20px;
+                text-align: center;
+
+            }
+
+            .header{
+                background: #4c0c47;
+                height: 100vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                
+            }
+
+            .header img{
+                border-radius: 50%;
+                width: 250px;
+                height: 250px;
+                margin-bottom: 10px;
+            }
+
+            .main{
+                margin: 1.5em 7em;
+            }
+
+            .container{
+                text-align: center;
+                margin-bottom: 15px;;
+            }
+
+            .skills, .projects{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 10px 0;
+            }
+            .skill, .project{
+                width: 200px;
+                text-align: center;
+                margin: 10px;
+                padding: 10px 20px;
+                background: #f1f1f1;
+                border-radius: 10px;
+            }
+            .skills :hover {
+                background: #4c0c5c;
+                color: #f1f1f1;
+            }
+
+            .footer{
+                width: 100%;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                background: #4c0c5c;
+                margin-top: 15px;
+                padding: 15px;
+            }
+            input[type=text], input[type=email], textarea, button{
+                width: 100%;
+                padding: 12px 20px;
+                margin: 8px 0;
+                display: inline-block;
+              
+               
+            }
+
+
+            button:hover{
+                background-color: #4c0c5c;
+                color: #ffffff;
+            }
+            
+            @media screen and (max-width:600px) {
+                    .skills, .projects{
+                    flex-direction: column;
+                    height: auto;
+                    margin-top: 20px;
+                }
+                
+            }
+        </style>
+    </head>
+    
+    <body>
+       
+        <div class="navigation">
+            <div><a href="index.html"></a>Mr Fatika</div>
+            <div> || </div>
+            <div><a href="#who">WHO</a></div>
+        </div>
+        <div class ="header">
+            <img src="profile.HEIC" alt="my profile pic">
+            <p>Hello, i'm Fatika. A frontend developer<br><i class="fonts.googleapis.com-facebook"></i></p>
+        </div>
+        <div claass="main">
+            <div class="container">
+                <h2>WHO</h2>
+                <p>Lorem ipsum dolor sit amet consectectur adipisicing elit.
+                    At iure sequi fuga delectus
+                     tempore odio laundatium amet
+                    accusamus eum distinctio eligendi totam 
+                    vitae quibusum culpa, aut iusto quodquisquam dolores.
+                </p></div>
+                <div class="container">
+                    <h2>SKILLS</h2>
+                    <P>Lorem ipsum dolor sit amet,consectectur adipisicing elit.
+                        Et perferendis voluptates laboriosam accusamus,
+                         delectus cupidate eveniet volupatatibus soluta saepe.
+                        ipsa magnam nisi sint mulla  ullam quae repellendus,
+                         unde consectectur laboriosam.
+                    </P>
+            <div class="container">
+                <div class="skills">
+                    <div class="skill">HTML</div>
+                    <div class="skill">CSS</div>
+                    <div class="skill">JAVASCRIPT</div>
+                </div>
+            </div>
+                </div>
+        </div>
+        <div class="container">
+            <h2>PROJECTS</h2>
+            <P>Lorem ipsum dolor sit amet,consectectur adipisicing elit.
+                Et perferendis voluptates laboriosam accusamus, delectus cupidate eveniet volupatatibus soluta saepe.
+                ipsa magnam nisi sint mulla  ullam quae repellendus, unde consectectur laboriosam.
+            </P>
+    <div class="container">
+        <div class="projects">
+            <div class="project">PROJECT 1</div>
+            <div class="project">PROJECT 2</div>
+            <div class="project">PROJECT 3</div>
+        </div>
+    </div>
+        </div> 
+        <div class="footer">
+            <h2 style="text-align: center; color: white;">Contact me</h2>
+            <form action="">
+                <input type="text" name="Fullname" placeholder="Enter fullname">
+                <input type="Email" placeholder="Enter Email">
+                <textarea name="message"></textarea>
+                <button type="submit">Submit</button>
+            </form>
+            <p style="color: white; text-align: center; ">Designed by Fatika</p>
+        </div>
+
+        <footer>
+            <section>
+                <a href="#">Twitter</a>
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+            </section>
+        </footer>
+    </body>
+</html>
